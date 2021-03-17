@@ -1,0 +1,70 @@
+INSERT INTO public.students(
+	"student_ID", student_name, phone, address)
+	VALUES ('passport1' , 'avtandil', '+78987654', 'dfgttr5'),
+			('passport2', 'armen', '+7623893', 'hjhf'),
+			('passport3' , 'lusine', '+78987654', 'dfgttr5'),
+	 		('passport4', 'narine', '+7623893', 'hjhf'),
+	 		('passport5' , 'henri', '+78987654', 'dfgttr5'),
+	 		('passport6', 'vardan', '+7623893', 'hjhf'),
+	 		('passport7' , 'parandzem', '+78987654', 'dfgttr5'),
+			('passport8' , 'el', '+78987654', 'dfgttr5'),
+	 		('passport9', 'urish', '+7623893', 'hjhf'),
+	 		('passport10' , 'inch', '+78987654', 'dfgttr5'),
+	 		('passport11', 'anun', '+7623893', 'hjhf'),
+	 		('passport12' , 'kar', '+78987654', 'dfgttr5'),
+			('passport13', 'vardan', '+7623893', 'hjhf'),
+	 		('passport14' , 'parandzem', '+78987654', 'dfgttr5');
+			
+	 
+	INSERT INTO public.courses(
+	course_name)
+	VALUES ( 'math'),
+			('history'),
+	 		('music'),
+	 		('physics');
+
+	 
+	INSERT INTO public.grades(
+	"grade" , "course_ID", "student_ID")
+	VALUES (33 , 1, 'passport1' ),
+			(33 , 1, 'passport2' ),
+			(93 , 1, 'passport3' ),
+			(31 , 1, 'passport4' ),
+			(44 , 1, 'passport5' ),
+			(56 , 1, 'passport6' ),
+			(53 , 1, 'passport7' ),
+			(43 , 1, 'passport8' ),
+			(90 , 1, 'passport9' ),
+			(44 , 1, 'passport10'),
+			(56 , 1, 'passport11'),
+			(53 , 1, 'passport12'),
+			(43 , 1, 'passport13'),
+			(90 , 1, 'passport14'),
+			(33 , 2, 'passport1'),
+			(33 , 2, 'passport2'),
+			(93 , 2, 'passport3'),
+			(31 , 2, 'passport4'),
+			(44 , 2, 'passport5'),
+			(56 , 2, 'passport6'),
+			(53 , 2, 'passport7'),
+			(43 , 2, 'passport8'),
+			(98 , 2, 'passport9'),
+			(46 , 2, 'passport10'),
+			(58 , 2, 'passport11'),
+			(53 , 2, 'passport12'),
+			(46 , 2, 'passport13'),
+			(96 , 2, 'passport14'),
+			(53 , 3, 'passport1'),
+			(73 , 3, 'passport2'),
+			(83 , 3, 'passport3'),
+			(81 , 3, 'passport4'),
+			(84 , 3, 'passport5'),
+			(96 , 3, 'passport6'),
+			(43 , 3, 'passport7'),
+			(53 , 3, 'passport8'),
+			(88 , 3, 'passport9'),
+			(66 , 3, 'passport10'),
+			(68 , 3, 'passport11'),
+			(53 , 3, 'passport12'),
+			(56 , 3, 'passport13'),
+			(56 , 3, 'passport14');
