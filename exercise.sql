@@ -3,11 +3,10 @@ SELECT AVG(grade)
 group by "course_ID"
 order by "course_ID"
 	
-	--------- after LEFT JOIN I have an error -------
 Select students.student_name, max(grades.grade)
 	From public.students
 	Left Join public.grades
-	on grades.student_ID = students.student_ID
+	on "grades.student_ID" = "students.student_ID"
 Group by grades.student_ID, course_ID;
 
 
